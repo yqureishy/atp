@@ -12,6 +12,6 @@ class ControlledTests(unittest.TestCase):
         expected_result = ("a.com", "b.com")
         self.assertEqual(computed_result, expected_result)
 
-        # assert computed_result == expected_result
-        # print(
-        #     "Successfully passed {}!".format(os.path.basename(__file__).split(".")[0]))
+        assert computed_result == expected_result
+        print(
+            "Successfully passed {}!".format(os.path.basename(__file__).split(".")[0]))
